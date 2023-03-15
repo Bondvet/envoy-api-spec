@@ -1,0 +1,31 @@
+{
+  "name": "@bondvet/envoy-api-spec",
+  "version": "1.0.0",
+  "description": "Envoy connect API documentation",
+  "main": "index.js",
+  "scripts": {
+    "build": "apidoc -i src -o docs -f \".*\\.js$\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bondvet/envoy-api-spec.git"
+  },
+  "author": "Daniel Holzmann <daniel@bondvet.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bondvet/envoy-api-spec/issues"
+  },
+  "homepage": "https://github.com/Bondvet/envoy-api-spec#readme",
+  "devDependencies": {
+    "apidoc": "^0.54.0",
+    "husky": "^8.0.3"
+  },
+  "apidoc": {
+    "title": "Envoy Connect API",
+    "url": "https://functions.bondvet.com/zendesk/rest",
+    "template": {
+      "forceLanguage": "en",
+      "showRequiredLabels": true
+    }
+  }
+}
