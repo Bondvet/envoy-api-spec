@@ -8,6 +8,6 @@
  * @apiUse Auth
  *
  * @apiSuccess {Number} total
- * @apiUse Clients
+ * @apiUse ClientsResponse
  *
  */
