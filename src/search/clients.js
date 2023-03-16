@@ -1,23 +1,20 @@
 /**
  * @apiDefine Clients
  * @apiSuccess {Object[]} clients
- * @apiSuccess {String} clients.id
- * @apiSuccess {String} clients.email
- * @apiSuccess {String} [clients.firstName]
- * @apiSuccess {String} [clients.lastName]
- * @apiSuccess {String} [clients.phoneNumber]
+ * @apiSuccess {String} clients.id internal client ID
+ * @apiSuccess {String} clients.email client email address
+ * @apiSuccess {String} [clients.firstName] client first name
+ * @apiSuccess {String} [clients.lastName] client last name
+ * @apiSuccess {String} [clients.phoneNumber] client phone number
  * @apiSuccess {String} [clients.preferredProvider]
- * @apiSuccess {String} [clients.lastSpokeWith]
+ *  name of the client's preferred provider
+ * @apiSuccess {String} [clients.lastSpokeWith] name of the provider
+ *  who last spoke to the client
  *
- * @apiUse ClientCommunicationLogs
+ * @apiUse ClientConversations
+ * @apiUse ClientLabResults
+ * @apiUse ClientMedications
  * @apiUse ClientTasks
- */
-
-/**
- * @apiDefine ClientCommunicationLogs
- * @apiSuccess {Object} clients.lastCommunicationLogs
- * @apiSuccess {String} clients.lastCommunicationLogs.id
- * @apiSuccess {Date} clients.lastCommunicationLogs.date date and time of the
- *  last communication log entry. format: `YYYY-MM-DDTHH:mm:ss`
+ * @apiUse ClientVisits
  */
 

@@ -3,11 +3,10 @@
  * @apiName Search client
  * @apiGroup Search
  *
- * @apiParam {String="phone","email"} type
- * @apiQuery {String} value
+ * @apiParam {String="phone","email"} type type of search
+ * @apiQuery {String} value search value
  * @apiUse Auth
  *
- * @apiSuccess {Number} total
  * @apiUse ClientsResponse
  *
  */
