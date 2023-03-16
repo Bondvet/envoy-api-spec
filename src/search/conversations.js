@@ -15,6 +15,7 @@
  *
  * @apiSuccess {Object[]} clients.conversations.messages
  * @apiSuccess {String} clients.conversations.messages.id
+ * @apiSuccess {String} clients.conversations.messages.conversationId
  * @apiSuccess {String} clients.conversations.messages.body content of the message
  * @apiSuccess {String} clients.conversations.messages.deliveryStatus
  * @apiSuccess {Date} [clients.conversations.messages.deletedAt] format: `YYYY-MM-DDTHH:mm:ss`
