@@ -16,5 +16,6 @@
  * @apiUse ClientMedications
  * @apiUse ClientTasks
  * @apiUse ClientVisits
+ * @apiUse ClientPatients
  */
 
