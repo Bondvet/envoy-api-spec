@@ -12,6 +12,9 @@
 
 /**
  * @api {POST} /conversations create a new conversation
+ *
+ * @apiUse Auth
+ *
  * @apiName Create Conversation
  * @apiGroup Conversations
  *
@@ -27,6 +30,9 @@
 
 /**
  * @api {POST} /conversations/:conversationId add a new message to an existing conversation
+ *
+ * @apiUse Auth
+ *
  * @apiName Add message
  * @apiGroup Conversations
  *
