@@ -46,8 +46,7 @@
  */
 
 /**
- * @api {PUT} /conversations/:conversationId associate an existing conversation
- * with a zendesk ticket
+ * @api {PUT} /conversations/:conversationId associate an existing conversation with a zendesk ticket
  *
  * @apiUse Auth
  *
