@@ -14,5 +14,5 @@
  * @apiSuccess {Date} clients.tasks.insertedAt  format: `YYYY-MM-DDTHH:mm:ss`
  * @apiSuccess {String} clients.tasks.text
  * @apiSuccess {Date} clients.tasks.updatedAt  format: `YYYY-MM-DDTHH:mm:ss`
- * @apiSuccess {String} patientId
+ * @apiSuccess {String} clients.tasks.patientId
  */
