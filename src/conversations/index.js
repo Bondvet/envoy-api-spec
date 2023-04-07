@@ -22,6 +22,8 @@
  * @apiBody {String} patientId
  * @apiBody {String} subject
  * @apiBody {String="app","email","facebook","fax","other","postcard","sms","website_chat"} medium
+ * @apiBody {String} zendeskTicketId the conversation will be assigned to this
+ * Zendesk ticket ID
  *
  * @apiUse Auth
  *
@@ -40,7 +42,7 @@
  *
  * @apiBody {String} body
  * @apiBody {String} zendeskTicketId the conversation will be assigned to this
- * Zendesk ticket ID, if
+ * Zendesk ticket ID
  *
  * @apiUse MessageResponse
  */
