@@ -43,6 +43,7 @@
  * @apiBody {String} body
  * @apiBody {String} zendeskTicketId the conversation will be assigned to this
  * Zendesk ticket ID
+ * @apiBody {Boolean} [close] mark this conversation as closed
  *
  * @apiUse MessageResponse
  */
@@ -58,7 +59,8 @@
  * @apiParam {String} conversationId
  *
  * @apiBody {String} zendeskTicketId the conversation will be assigned to this
- * Zendesk ticket ID, if
+ * Zendesk ticket ID
+ * @apiBody {Boolean} [close] mark this conversation as closed
  *
  * @apiUse ConversationResponse
  */
