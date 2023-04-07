@@ -5,6 +5,6 @@
  * @apiSuccess {String} clients.visits.id
  * @apiSuccess {String} clients.visits.location name of the clinic
  * @apiSuccess {String} [clients.visits.provider] name of the provider
- * @apiSuccess {String} clients.visits.date date and time of the visit format: `YYYY-MM-DDTHH:mm:ss`
+ * @apiSuccess {String} clients.visits.date date and time of the visit format: `YYYY-MM-DDTHH:mm:ssZ`
  * @apiSuccess {String} clients.visits.patientId
  */

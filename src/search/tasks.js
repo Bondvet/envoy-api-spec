@@ -10,9 +10,9 @@
  * name of the provider who completed the task
  * @apiSuccess {String[]} [clients.tasks.assignees]
  * names of the provider to whom the task is assigned
- * @apiSuccess {Date} clients.tasks.dueDate  format: `YYYY-MM-DDTHH:mm:ss`
- * @apiSuccess {Date} clients.tasks.insertedAt  format: `YYYY-MM-DDTHH:mm:ss`
+ * @apiSuccess {Date} clients.tasks.dueDate  format: `YYYY-MM-DDTHH:mm:ssZ`
+ * @apiSuccess {Date} clients.tasks.insertedAt  format: `YYYY-MM-DDTHH:mm:ssZ`
  * @apiSuccess {String} clients.tasks.text
- * @apiSuccess {Date} clients.tasks.updatedAt  format: `YYYY-MM-DDTHH:mm:ss`
+ * @apiSuccess {Date} clients.tasks.updatedAt  format: `YYYY-MM-DDTHH:mm:ssZ`
  * @apiSuccess {String} clients.tasks.patientId
  */

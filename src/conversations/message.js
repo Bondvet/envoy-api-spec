@@ -6,8 +6,8 @@
  * @apiSuccess {String} conversationId
  * @apiSuccess {String} body content of the message
  * @apiSuccess {String} deliveryStatus
- * @apiSuccess {Date} [deletedAt] format: `YYYY-MM-DDTHH:mm:ss`
- * @apiSuccess {Date} insertedAt format: `YYYY-MM-DDTHH:mm:ss`
+ * @apiSuccess {Date} [deletedAt] format: `YYYY-MM-DDTHH:mm:ssZ`
+ * @apiSuccess {Date} insertedAt format: `YYYY-MM-DDTHH:mm:ssZ`
  * @apiSuccess {Boolean} isAutomatedMessage
  *  whether this is an automated message
  * @apiSuccess {Boolean} draft whether this message is a draft

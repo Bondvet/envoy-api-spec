@@ -3,7 +3,7 @@
  * @apiName Conversations
  * @apiGroup Conversations
  *
- * @apiQuery {Date} since date and time in format `YYYY-MM-DDTHH:mm:ss`
+ * @apiQuery {Date} since date and time in format `YYYY-MM-DDTHH:mm:ssZ`
  *
  * @apiUse Auth
  *
