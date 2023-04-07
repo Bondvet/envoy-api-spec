@@ -16,6 +16,7 @@
  * @apiSuccess {String} [clients.medications.name]
  * @apiSuccess {String} [clients.medications.note]
  * @apiSuccess {String} [clients.medications.patient] name of the patient
+ * @apiSuccess {String} [clients.medications.patientId] id of the patient
  * @apiSuccess {Date} [clients.medications.start] format: `YYYY-MM-DDTHH:mm:ss`
  * @apiSuccess {String="active","any","completed","declined","deleted","pending","refilled","stopped"} [clients.medications.status]
  * @apiSuccess {Date} [clients.medications.stop] format: `YYYY-MM-DDTHH:mm:ss`
