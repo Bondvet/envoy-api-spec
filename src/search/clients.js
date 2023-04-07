@@ -6,8 +6,6 @@
  * @apiSuccess {String} [clients.firstName] client first name
  * @apiSuccess {String} [clients.lastName] client last name
  * @apiSuccess {String} [clients.phoneNumber] client phone number
- * @apiSuccess {String} [clients.preferredProvider]
- *  name of the client's preferred provider
  * @apiSuccess {String} [clients.lastSpokeWith] name of the provider
  *  who last spoke to the client
  *
