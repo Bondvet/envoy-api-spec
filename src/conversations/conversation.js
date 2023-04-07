@@ -12,6 +12,7 @@
  * @apiSuccess {String} subject Subject of the conversation
  * @apiSuccess {String} [location] name of the clinic of the conversation
  * @apiSuccess {String} [patient] name of the patient of the conversation
+ * @apiSuccess {String} [patientId] ID of the patient of the conversation
  *
  * @apiSuccess {Object[]} messages
  * @apiSuccess {String} messages.id

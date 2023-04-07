@@ -39,7 +39,25 @@
  * @apiParam {String} conversationId
  *
  * @apiBody {String} body
- * @apiBody {String} zendeskTicketId
+ * @apiBody {String} zendeskTicketId the conversation will be assigned to this
+ * Zendesk ticket ID, if
  *
  * @apiUse MessageResponse
+ */
+
+/**
+ * @api {PUT} /conversations/:conversationId associate an existing conversation
+ * with a zendesk ticket
+ *
+ * @apiUse Auth
+ *
+ * @apiName Associate conversation with ticket
+ * @apiGroup Conversations
+ *
+ * @apiParam {String} conversationId
+ *
+ * @apiBody {String} zendeskTicketId the conversation will be assigned to this
+ * Zendesk ticket ID, if
+ *
+ * @apiUse ConversationResponse
  */
