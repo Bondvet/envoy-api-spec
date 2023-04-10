@@ -31,6 +31,25 @@
  */
 
 /**
+ * @api {GET} /conversations/:conversationId get details about an existing conversation,
+ * including all messages
+ *
+ * @apiUse Auth
+ *
+ * @apiName Add message
+ * @apiGroup Conversations
+ *
+ * @apiParam {String} conversationId
+ *
+ * @apiBody {String} body
+ * @apiBody {String} zendeskTicketId the conversation will be assigned to this
+ * Zendesk ticket ID
+ * @apiBody {Boolean} [close] mark this conversation as closed
+ *
+ * @apiUse MessageResponse
+ */
+
+/**
  * @api {POST} /conversations/:conversationId add a new message to an existing conversation
  *
  * @apiUse Auth
