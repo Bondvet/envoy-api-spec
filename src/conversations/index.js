@@ -31,8 +31,7 @@
  */
 
 /**
- * @api {GET} /conversations/:conversationId get details about an existing conversation,
- * including all messages
+ * @api {GET} /conversations/:conversationId get details about an existing conversation, including all messages
  *
  * @apiUse Auth
  *
