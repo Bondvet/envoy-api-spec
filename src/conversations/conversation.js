@@ -26,6 +26,8 @@
  * @apiSuccess {Boolean} messages.draft whether this message is a draft
  * @apiSuccess {String} messages.recipientAddress
  * @apiSuccess {String} messages.senderAddress
+ * @apiSuccess {String} [messages.provider] in case of an outbound message,
+ * this holds the name of the provider who sent it
  * @apiSuccess {Boolean} messages.inbound
  *  `true` if the client sent this message,
  *  `false` if we sent this message to the client
