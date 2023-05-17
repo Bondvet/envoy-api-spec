@@ -35,7 +35,7 @@
  *
  * @apiUse Auth
  *
- * @apiName Add message
+ * @apiName Get details
  * @apiGroup Conversations
  *
  * @apiParam {String} conversationId
