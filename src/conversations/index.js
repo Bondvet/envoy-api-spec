@@ -1,5 +1,5 @@
 /**
- * @api {get} /conversations get all new conversations since a given date and time
+ * @api {GET} /conversations get all new conversations since a given date and time
  * @apiName Conversations
  * @apiGroup Conversations
  *

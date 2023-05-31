@@ -4,7 +4,11 @@
   "description": "Envoy connect API documentation",
   "main": "index.js",
   "scripts": {
-    "build": "apidoc -i src -o docs -f \".*\\.js$\""
+    "build": "apidoc -i src -o docs -f \".*\\.js$\"",
+    "build:watch": "npm run build -- --watch",
+    "serve": "npx serve -l 8000 docs",
+    "open": "sleep 1 && open http://127.0.0.1:8000",
+    "dev": "npm-run-all -p build:watch serve open"
   },
   "repository": {
     "type": "git",
@@ -18,7 +22,9 @@
   "homepage": "https://github.com/Bondvet/envoy-api-spec#readme",
   "devDependencies": {
     "apidoc": "^0.54.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "npm-run-all": "^4.1.5",
+    "serve": "^14.2.0"
   },
   "apidoc": {
     "title": "Envoy Connect API",
