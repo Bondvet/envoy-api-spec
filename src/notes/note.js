@@ -8,6 +8,7 @@
  * @apiSuccess {String} [location] name of the clinic of the note
  * @apiSuccess {String} [provider] name of the provider of the note
  * @apiSuccess {String} text
+ * @apiSuccess {String} [zendeskNoteId] corresponding ID for this note in Zendesk
  * @apiSuccess {String} title
  */
 
@@ -23,5 +24,6 @@
  * @apiSuccess {String} [notes.provider] name of the provider of the note
  * @apiSuccess {String} notes.text
  * @apiSuccess {String} notes.title
+ * @apiSuccess {String} [notes.zendeskNoteId] corresponding ID for this note in Zendesk
  */
 

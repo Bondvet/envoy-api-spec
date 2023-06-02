@@ -19,6 +19,7 @@
  *
  * @apiBody {String} text content of the note
  * @apiBody {String} patientId ID of the patient
+ * @apiBody {String} zendeskNoteId corresponding ID for this note in Zendesk
  *
  * @apiUse NoteResponse
  */
@@ -33,6 +34,7 @@
  *
  * @apiBody {String} text content of the note
  * @apiBody {String} patientId ID of the patient
+ * @apiBody {String} zendeskNoteId corresponding ID for this note in Zendesk
  * @apiBody {String} personContacted Name of the person contacted
  * @apiBody {String} reason Reason for the phone call
  *
@@ -49,6 +51,7 @@
  *
  * @apiBody {String} text content of the note
  * @apiBody {String} patientId ID of the patient
+ * @apiBody {String} zendeskNoteId corresponding ID for this note in Zendesk
  * @apiBody {String} personContacted Name of the person contacted
  *
  * @apiUse NoteResponse
