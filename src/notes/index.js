@@ -21,6 +21,12 @@
  *
  * @apiBody {String} text content of the note
  * @apiBody {String} [zendeskNoteId] corresponding ID for this note in Zendesk
+ * @apiBody {String} [ticketRequester] Name of the person who requested the ticket.
+ * (will be stored in the `fieldData` property of the note, as `Ticket Requester` field)
+ * @apiBody {String} [ticketAssignee] Name of assignee of the ticket
+ * (will be stored in the `fieldData` property of the note, as `Ticket Assignee` field)
+ * @apiBody {String} [ticketSubject] Subject of the ticket
+ * (will be stored in the `fieldData` property of the note, as `Ticket Subject` field)
  *
  * @apiUse NoteResponse
  */
@@ -39,6 +45,12 @@
  * @apiBody {String} [zendeskNoteId] corresponding ID for this note in Zendesk
  * @apiBody {String} personContacted Name of the person contacted
  * @apiBody {String} reason Reason for the phone call
+ * @apiBody {String} [ticketRequester] Name of the person who requested the ticket.
+ * (will be stored in the `fieldData` property of the note, as `"`Ticket Requester`"` field)
+ * @apiBody {String} [ticketAssignee] Name of assignee of the ticket
+ * (will be stored in the `fieldData` property of the note, as `Ticket Assignee` field)
+ * @apiBody {String} [ticketSubject] Subject of the ticket
+ * (will be stored in the `fieldData` property of the note, as `Ticket Subject` field)
  *
  * @apiUse NoteResponse
  */
@@ -56,6 +68,12 @@
  * @apiBody {String} text content of the note
  * @apiBody {String} [zendeskNoteId] corresponding ID for this note in Zendesk
  * @apiBody {String} personContacted Name of the person contacted
+ * @apiBody {String} [ticketRequester] Name of the person who requested the ticket.
+ * (will be stored in the `fieldData` property of the note, as `"`Ticket Requester`"` field)
+ * @apiBody {String} [ticketAssignee] Name of assignee of the ticket
+ * (will be stored in the `fieldData` property of the note, as `Ticket Assignee` field)
+ * @apiBody {String} [ticketSubject] Subject of the ticket
+ * (will be stored in the `fieldData` property of the note, as `Ticket Subject` field)
  *
  * @apiUse NoteResponse
  */
