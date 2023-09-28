@@ -9,6 +9,9 @@
  * @apiSuccess {String} [clients.lastSpokeWith] name of the provider
  *  who last spoke to the client
  *
+ * @apiSuccess {String[]} clients.preferredProviders
+ *  names of the client's preferred providers
+ *
  * @apiUse ClientConversations
  * @apiUse ClientLabResults
  * @apiUse ClientMedications

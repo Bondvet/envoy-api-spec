@@ -1,6 +1,8 @@
 /**
  * @api {GET} /notes/:patientId get all notes on a patient's chart
  *
+ * @apiParam {String} patientId ID of the patient
+ *
  * @apiName Get Notes
  * @apiGroup Notes
  *
